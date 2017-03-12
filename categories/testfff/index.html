@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -87,13 +87,15 @@
 
 
 
+<meta name="description" content="站点描述">
 <meta property="og:type" content="website">
-<meta property="og:title" content="nihao">
-<meta property="og:url" content="http://yoursite.com/nihao/index.html">
-<meta property="og:site_name" content="11111">
-<meta property="og:updated_time" content="2017-03-10T15:39:22.000Z">
+<meta property="og:title" content="一级标题">
+<meta property="og:url" content="http://yoursite.com/categories/testfff/index.html">
+<meta property="og:site_name" content="一级标题">
+<meta property="og:description" content="站点描述">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="nihao">
+<meta name="twitter:title" content="一级标题">
+<meta name="twitter:description" content="站点描述">
 
 
 
@@ -107,7 +109,7 @@
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -121,22 +123,16 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/nihao/"/>
+  <link rel="canonical" href="http://yoursite.com/categories/testfff/"/>
 
 
 
 
 
-  <title>
-  
-
-  
-    nihao | 11111
-  
-</title>
+  <title> 分类: testfff | 一级标题 </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
@@ -169,12 +165,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">11111</span>
+        <span class="site-title">一级标题</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">二级标题</p>
       
   </div>
 
@@ -199,7 +195,17 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -209,17 +215,17 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            归档
           </a>
         </li>
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/nihao" rel="section">
+          <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
@@ -242,27 +248,47 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-  <header class="post-header">
-
-	<h1 class="post-title" itemprop="name headline">nihao</h1>
-
-
-
-</header>
+  <section id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        testfff
+        <small>分类</small>
+      </h2>
+    </div>
 
     
-    
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            Insgesamt ein Tag
-        </div>
-        <div class="tag-cloud-tags">
-          <a href="/tags/nihao/" style="font-size: 12px; color: #ccc">nihao</a>
-        </div>
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
+        
+            <a class="post-title-link" href="/2017/03/09/hello-world/" itemprop="url">
+              
+                <span itemprop="name">Hello World</span>
+              
+            </a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-03-09T00:22:26+08:00"
+              content="2017-03-09" >
+          03-09
+        </time>
       </div>
+
+    </header>
+  </article>
+
+
     
-  </div>
+  </section>
+
+  
+
 
           
           </div>
@@ -270,10 +296,6 @@
 
 
           
-  <div class="comments" id="comments">
-    
-  </div>
-
 
         </div>
         
@@ -297,11 +319,11 @@
       <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="John Doe" />
-          <p class="site-author-name" itemprop="name">John Doe</p>
+               src="/images/logo.png"
+               alt="lyyiqo" />
+          <p class="site-author-name" itemprop="name">lyyiqo</p>
            
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">站点描述</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -310,7 +332,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives">
                 <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -319,10 +341,10 @@
             
             
             <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">Kategorien</span>
-              
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
             </div>
           
 
@@ -330,9 +352,9 @@
             
             
             <div class="site-state-item site-state-tags">
-              <a href="/nihao/index.html">
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">Tags</span>
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
               </a>
             </div>
           
@@ -349,6 +371,20 @@
         
 
         
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              推荐链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.baidu..com/" title="百度" target="_blank">百度</a>
+                </li>
+              
+            </ul>
+          </div>
         
 
         
@@ -377,16 +413,16 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">lyyiqo</span>
 </div>
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Pisces
   </a>
