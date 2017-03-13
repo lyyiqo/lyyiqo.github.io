@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/03/10/index/</loc>
+    <lastmod>2017-03-12T14:20:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>PS之图片处理</title>
+        <pubTime>2017-03-10T14:56:15.000Z</pubTime>
+        
+        <tag>ps</tag>
+         
+         
+           
+             
+              <breadCrumb title="PS" url="http://yoursite.com/categories/PS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/03/09/hello-world/</loc>
+    <lastmod>2017-03-12T14:19:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-03-08T16:22:26.000Z</pubTime>
+        
+        <tag>hello</tag>
+         
+        <tag>world</tag>
+         
+         
+           
+             
+              <breadCrumb title="Helloworld" url="http://yoursite.com/categories/Helloworld/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+</urlset>
