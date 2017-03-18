@@ -3,9 +3,9 @@
   
     
     <entry>
-      <title><![CDATA[PS之图片处理]]></title>
-      <url>%2F2017%2F03%2F10%2Findex%2F</url>
-      <content type="text"><![CDATA[原图是这样的]]></content>
+      <title><![CDATA[Hexo + theme_next + 网易云跟帖的配置记录]]></title>
+      <url>%2F2017%2F03%2F18%2Fyungentie%2F</url>
+      <content type="text"><![CDATA[了解了部分跟帖平台，觉得只有网易云跟帖的界面看上去好看一些，界面简约大气。网上这块介绍几乎没有怎么介绍，可能太简单了吧，但我却折腾了一段时间呢。 NO.1 让网易收录你的域名 填写完后，点击保存会显示该域名未收录，需要发邮件给yungentie@service.netease.com，并把你的域名发给他，申请下云跟帖收录你的域名，响应速度挺快的，第二天就收到了他们的邮件。 NO.2 拿到对应的key填入theme_next主题配置文件gentie_productKey中登陆网易云跟帖，登陆—>获取代码—>通用代码，里面的productKey就是主题配置文件要填的值，填入后执行：1Hexo d -g 有一些坑：网易云跟帖在执行下面命令查看本地站点时，评论框是没有跳出来的，当时以为next主题不支持，在github上提了issue后得以解决，在此感谢VI。1Hexo server 就是说配置上传github后，评论框才生效，如果要本地生效可以尝试下，我本地未成功，可能操作不对：https://github.com/iissnan/hexo-theme-next/issues/1506 NO.3 云跟帖还支持一些个性化定制，自行配置吧可以登陆www.lyyiqo.win查看下评论框。 END。]]></content>
     </entry>
 
     
