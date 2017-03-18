@@ -106,19 +106,19 @@
 
 
 <meta name="description" content="了解了部分跟帖平台，觉得只有网易云跟帖的界面看上去好看一些，界面简约大气。网上这块介绍几乎没有怎么介绍，可能太简单了吧，但我却折腾了一段时间呢。
-NO.1 让网易收录你的域名">
+STEP.1 让网易收录你的域名">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo + theme_next + 网易云跟帖的配置记录">
 <meta property="og:url" content="http://www.lyyiqo.win/2017/03/18/yungentie/index.html">
 <meta property="og:site_name" content="行.智">
 <meta property="og:description" content="了解了部分跟帖平台，觉得只有网易云跟帖的界面看上去好看一些，界面简约大气。网上这块介绍几乎没有怎么介绍，可能太简单了吧，但我却折腾了一段时间呢。
-NO.1 让网易收录你的域名">
+STEP.1 让网易收录你的域名">
 <meta property="og:image" content="http://omua2rcqd.bkt.clouddn.com/yungentie_1.png">
-<meta property="og:updated_time" content="2017-03-18T14:59:12.000Z">
+<meta property="og:updated_time" content="2017-03-18T15:09:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo + theme_next + 网易云跟帖的配置记录">
 <meta name="twitter:description" content="了解了部分跟帖平台，觉得只有网易云跟帖的界面看上去好看一些，界面简约大气。网上这块介绍几乎没有怎么介绍，可能太简单了吧，但我却折腾了一段时间呢。
-NO.1 让网易收录你的域名">
+STEP.1 让网易收录你的域名">
 <meta name="twitter:image" content="http://omua2rcqd.bkt.clouddn.com/yungentie_1.png">
 
 
@@ -426,13 +426,13 @@ NO.1 让网易收录你的域名">
 
       
         <p>了解了部分跟帖平台，觉得只有<a href="https://manage.gentie.163.com/#/site" target="_blank" rel="external">网易云跟帖</a>的界面看上去好看一些，界面简约大气。网上这块介绍几乎没有怎么介绍，可能太简单了吧，但我却折腾了一段时间呢。</p>
-<h1 id="NO-1-让网易收录你的域名"><a href="#NO-1-让网易收录你的域名" class="headerlink" title="NO.1 让网易收录你的域名"></a>NO.1 让网易收录你的域名</h1><p><img src="http://omua2rcqd.bkt.clouddn.com/yungentie_1.png" alt=""></p>
+<h1 id="STEP-1-让网易收录你的域名"><a href="#STEP-1-让网易收录你的域名" class="headerlink" title="STEP.1 让网易收录你的域名"></a>STEP.1 让网易收录你的域名</h1><p><img src="http://omua2rcqd.bkt.clouddn.com/yungentie_1.png" alt=""></p>
 <a id="more"></a>
 <p>填写完后，点击保存会显示该域名未收录，需要发邮件给<strong>yungentie@service.netease.com</strong>，并把你的域名发给他，申请下云跟帖收录你的域名，响应速度挺快的，第二天就收到了他们的邮件。</p>
-<h1 id="NO-2-拿到对应的key填入theme-next主题配置文件gentie-productKey中"><a href="#NO-2-拿到对应的key填入theme-next主题配置文件gentie-productKey中" class="headerlink" title="NO.2 拿到对应的key填入theme_next主题配置文件gentie_productKey中"></a>NO.2 拿到对应的key填入theme_next主题配置文件gentie_productKey中</h1><p>登陆<a href="https://manage.gentie.163.com/#/site" target="_blank" rel="external">网易云跟帖</a>，登陆—>获取代码—>通用代码，里面的<strong>productKey</strong>就是主题配置文件要填的值，填入后执行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hexo d -g</div></pre></td></tr></table></figure></p>
+<h1 id="STEP-2-拿到对应的key填入theme-next主题配置文件gentie-productKey中"><a href="#STEP-2-拿到对应的key填入theme-next主题配置文件gentie-productKey中" class="headerlink" title="STEP.2 拿到对应的key填入theme_next主题配置文件gentie_productKey中"></a>STEP.2 拿到对应的key填入theme_next主题配置文件gentie_productKey中</h1><p>登陆<a href="https://manage.gentie.163.com/#/site" target="_blank" rel="external">网易云跟帖</a>，登陆—>获取代码—>通用代码，里面的<strong>productKey</strong>就是主题配置文件要填的值，填入后执行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hexo d -g</div></pre></td></tr></table></figure></p>
 <p><strong>有一些坑：</strong><br>网易云跟帖在执行下面命令查看本地站点时，评论框是没有跳出来的，当时以为next主题不支持，在github上提了issue后得以解决，在此感谢VI。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hexo server</div></pre></td></tr></table></figure></p>
 <p>就是说配置上传github后，评论框才生效，如果要本地生效可以尝试下，我本地未成功，可能操作不对：<br><a href="https://github.com/iissnan/hexo-theme-next/issues/1506" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next/issues/1506</a></p>
-<h1 id="NO-3-云跟帖还支持一些个性化定制，自行配置吧"><a href="#NO-3-云跟帖还支持一些个性化定制，自行配置吧" class="headerlink" title="NO.3 云跟帖还支持一些个性化定制，自行配置吧"></a>NO.3 云跟帖还支持一些个性化定制，自行配置吧</h1><p>可以登陆<a href="www.lyyiqo.win">www.lyyiqo.win</a>查看下评论框。</p>
+<h1 id="STEP-3-云跟帖还支持一些个性化定制，自行配置吧"><a href="#STEP-3-云跟帖还支持一些个性化定制，自行配置吧" class="headerlink" title="STEP.3 云跟帖还支持一些个性化定制，自行配置吧"></a>STEP.3 云跟帖还支持一些个性化定制，自行配置吧</h1><p>可以登陆<a href="www.lyyiqo.win">www.lyyiqo.win</a>查看下评论框。</p>
 <h1 id="END。"><a href="#END。" class="headerlink" title="END。"></a>END。</h1>
       
     </div>
@@ -624,7 +624,7 @@ NO.1 让网易收录你的域名">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#NO-1-让网易收录你的域名"><span class="nav-number">1.</span> <span class="nav-text">NO.1 让网易收录你的域名</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NO-2-拿到对应的key填入theme-next主题配置文件gentie-productKey中"><span class="nav-number">2.</span> <span class="nav-text">NO.2 拿到对应的key填入theme_next主题配置文件gentie_productKey中</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NO-3-云跟帖还支持一些个性化定制，自行配置吧"><span class="nav-number">3.</span> <span class="nav-text">NO.3 云跟帖还支持一些个性化定制，自行配置吧</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#END。"><span class="nav-number">4.</span> <span class="nav-text">END。</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#STEP-1-让网易收录你的域名"><span class="nav-number">1.</span> <span class="nav-text">STEP.1 让网易收录你的域名</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#STEP-2-拿到对应的key填入theme-next主题配置文件gentie-productKey中"><span class="nav-number">2.</span> <span class="nav-text">STEP.2 拿到对应的key填入theme_next主题配置文件gentie_productKey中</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#STEP-3-云跟帖还支持一些个性化定制，自行配置吧"><span class="nav-number">3.</span> <span class="nav-text">STEP.3 云跟帖还支持一些个性化定制，自行配置吧</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#END。"><span class="nav-number">4.</span> <span class="nav-text">END。</span></a></li></ol></div>
             
 
           </div>
